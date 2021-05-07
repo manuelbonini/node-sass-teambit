@@ -3,3 +3,305 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #58402c;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  width: 110px;
+}
+
+header .container {
+  padding: 15px 10px;
+  border-bottom: 1px solid #58402c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  list-style-type: none;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  align-self: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: #58402c;
+}
+.menu li button {
+  padding: 10px;
+  color: #2e4790;
+  border: 1px solid #2e4790;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  background-color: white;
+}
+.menu li button img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.first {
+  padding: 50px 0;
+}
+.first .container {
+  display: flex;
+  flex-direction: row;
+}
+.first .container .title {
+  width: 50%;
+}
+.first .container .title h1 {
+  font-size: 40px;
+}
+.first .container .title p {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.first .container .title .title-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.first .container .title .title-button span {
+  padding: 0 15px;
+}
+.first .container .title button {
+  padding: 5px;
+  border: 1px solid #2e4790;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  background-color: #2e4790;
+  color: white;
+}
+.first .container .title button img {
+  width: 20px;
+  margin-right: 5px;
+}
+.first .container .title span {
+  font-size: 14px;
+}
+.first .container .section-img {
+  width: 50%;
+}
+
+.second {
+  background-color: #ffe7d2;
+  padding: 40px 0;
+}
+.second .container {
+  border-bottom: 1px solid #58402c;
+}
+.second .container h2 {
+  text-align: center;
+  font-size: 23px;
+  padding: 30px 0;
+}
+.second .container .second-img {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.second .container .second-img .img {
+  width: 150px;
+}
+.second .container .second-big-img {
+  padding: 50px;
+  width: 400px;
+  margin: auto;
+}
+
+.third {
+  background-color: #ffe7d2;
+  padding: 40px 0;
+}
+.third .container h2 {
+  text-align: center;
+  font-size: 23px;
+  padding: 30px 0;
+}
+.third .container .second-img {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.third .container .second-img .img {
+  width: 150px;
+}
+.third .container .second-img .img:last-child {
+  width: 70px;
+}
+.third .container .second-big-img {
+  padding: 50px;
+  width: 400px;
+  margin: auto;
+}
+
+.fourth {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+}
+.fourth .title {
+  width: 50%;
+}
+.fourth .title h2 {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+.fourth .title .paragraph-box {
+  width: 450px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.fourth .title a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding-top: 30px;
+}
+.fourth .title img {
+  padding-top: 30px;
+}
+.fourth .section-img {
+  width: 50%;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+}
+.fifth .title {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.fifth .title h2 {
+  font-size: 23px;
+  padding-bottom: 30px;
+}
+.fifth .title .paragraph-box {
+  width: 456px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.fifth .title a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding-top: 30px;
+}
+.fifth .title img {
+  padding-top: 30px;
+}
+.fifth .section-img {
+  width: 50%;
+}
+
+.sixth {
+  display: flex;
+  flex-direction: row;
+}
+.sixth .title {
+  width: 50%;
+}
+.sixth .title h2 {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+.sixth .title .paragraph-box {
+  width: 450px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.sixth .title a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding-top: 30px;
+}
+.sixth .title img {
+  padding-top: 30px;
+}
+.sixth .section-img {
+  width: 50%;
+}
+
+.seventh {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.seventh .title {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.seventh .title h2 {
+  font-size: 23px;
+  padding-bottom: 30px;
+}
+.seventh .title .paragraph-box {
+  width: 456px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+.seventh .title a {
+  text-decoration: none;
+  font-weight: 600;
+  display: block;
+  padding-top: 30px;
+}
+.seventh .title img {
+  padding-top: 30px;
+}
+.seventh .section-img {
+  width: 50%;
+}
+
+.eighth {
+  background-color: #ffe7d2;
+  padding: 40px 0;
+}
+.eighth .container h2 {
+  text-align: center;
+  font-size: 23px;
+  padding: 30px 0;
+}
+.eighth .container .img {
+  width: 150px;
+  color: black;
+}

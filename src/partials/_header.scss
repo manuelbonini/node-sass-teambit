@@ -1,0 +1,40 @@
+// logo
+.logo {
+    width: 110px;
+}
+
+header {
+    .container {
+        padding: 15px 10px;
+        border-bottom: 1px solid $text_color;
+        @include display_flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.menu {
+    ul {
+        @include display_flex;
+    }
+}
+
+.menu {
+    li {
+        list-style-type: none;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        align-self: center;
+        a {
+            text-decoration: none;
+            color: $text_color;
+        }
+        button {
+            padding: 10px;
+            color: $button_color;
+            @include button;
+            background-color: white;
+        }
+    }
+}

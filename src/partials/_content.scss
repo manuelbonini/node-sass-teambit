@@ -1,0 +1,230 @@
+// main
+.first {
+    padding: 50px 0;
+    .container {
+        @include display_flex;
+        .title {
+            width: 50%;
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 600;
+                padding-top: 15px;
+                padding-bottom: 30px;
+            }
+            .title-button {
+                @include display_flex;
+                align-items: center;
+                span {
+                    padding: 0 15px;
+                }
+            }
+            button {
+                padding: 5px;
+                @include button;
+                background-color: $button_color;
+                color: white;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        .section-img {
+            width: 50%;
+        }
+    }
+}
+
+.second {
+    background-color: $secondary_color;
+    padding: $padding_section;
+    .container {
+        border-bottom: 1px solid $text_color;
+        h2 {
+            text-align: center;
+            font-size: 23px;
+            padding: 30px 0;
+        }
+        .second-img {
+            padding-top: 20px;
+            @include display_flex;
+            justify-content: space-around;
+            .img {
+                width: 150px;
+            }
+        }
+        .second-big-img {
+            padding: 50px;
+            width: 400px;
+            margin: auto;
+        }
+    }
+}
+
+.third {
+    background-color: $secondary_color;
+    padding: $padding_section;
+    .container {
+        h2 {
+            text-align: center;
+            font-size: 23px;
+            padding: 30px 0;
+        }
+        .second-img {
+            padding-top: 20px;
+            @include display_flex;
+            justify-content: space-around;
+            .img {
+                width: 150px;
+                &:last-child {
+                    width: 70px;
+                }
+            }
+        }
+        .second-big-img {
+            padding: 50px;
+            width: 400px;
+            margin: auto;
+        }
+    }
+}
+
+.fourth {
+    padding: $padding_section;
+    @include display_flex;
+    .title {
+        width: 50%;
+        h2 {
+            font-size: 23px;
+            padding-bottom: 10px;
+        }
+        .paragraph-box {
+            width: 450px;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 15px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding-top: 30px;
+        }
+        img {
+            padding-top: 30px;
+        }
+    }
+    .section-img {
+        width: 50%;
+    }
+}
+
+.fifth {
+    @include display_flex;
+    .title {
+        width: 50%;
+        @include display_flex_col;
+        align-items: flex-end;
+        h2 {
+            font-size: 23px;
+            padding-bottom: 30px;
+        }
+        .paragraph-box {
+            width: 456px;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 15px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding-top: 30px;
+        }
+        img {
+            padding-top: 30px;
+        }
+    }
+    .section-img {
+        width: 50%;
+    }
+}
+
+.sixth {
+    @include display_flex;
+    .title {
+        width: 50%;
+        h2 {
+            font-size: 23px;
+            padding-bottom: 10px;
+        }
+        .paragraph-box {
+            width: 450px;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 15px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding-top: 30px;
+        }
+        img {
+            padding-top: 30px;
+        }
+    }
+    .section-img {
+        width: 50%;
+    }
+}
+
+.seventh {
+    @include display_flex;
+    padding-bottom: 50px;
+    .title {
+        width: 50%;
+        @include display_flex_col;
+        align-items: flex-end;
+        h2 {
+            font-size: 23px;
+            padding-bottom: 30px;
+        }
+        .paragraph-box {
+            width: 456px;
+            font-size: 20px;
+            font-weight: 600;
+            padding-top: 15px;
+        }
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding-top: 30px;
+        }
+        img {
+            padding-top: 30px;
+        }
+    }
+    .section-img {
+        width: 50%;
+    }
+}
+
+.eighth {
+    background-color: $secondary_color;
+    padding: $padding_section;
+    .container {
+        h2 {
+            text-align: center;
+            font-size: 23px;
+            padding: 30px 0;
+        }
+        .img {
+            width: 150px;
+            color: black;
+        }
+    }
+}
